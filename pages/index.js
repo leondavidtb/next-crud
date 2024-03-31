@@ -1,3 +1,4 @@
+import React from "react";
 import { Header, Layout, Modal, Pagination, Table } from "@/components";
 
 function Landing() {

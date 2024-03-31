@@ -1,3 +1,4 @@
+import React from "react";
 import { useEffect } from "react";
 import ReactDOM from "react-dom";
 
@@ -5,13 +6,13 @@ import { useDispatch, useSelector } from "react-redux";
 import { useForm } from "react-hook-form";
 import cx from "clsx";
 
-import { CheckSVG, CloseSVG } from "@/icons";
+import { CheckSVG, CloseSVG } from "../icons";
 import {
 	addEmployee,
 	setModalOpen,
 	setSelectedEmployee,
 	updateEmployee,
-} from "@/store";
+} from "../store";
 
 export function Modal() {
 	const { register, handleSubmit, errors, reset, setValue } = useForm();

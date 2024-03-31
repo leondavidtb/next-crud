@@ -1,6 +1,7 @@
+import React from "react";
 import { useDispatch } from "react-redux";
-import { PersonAddSVG } from "@/icons";
-import { setModalOpen } from "@/store";
+import { PersonAddSVG } from "../icons";
+import { setModalOpen } from "../store";
 
 export function Header() {
 	const dispatch = useDispatch();

@@ -1,11 +1,12 @@
+import React from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { PencilSVG, TrashSVG } from "@/icons";
+import { PencilSVG, TrashSVG } from "../icons";
 import {
 	deleteEmployee,
 	fetchEmployees,
 	setModalOpen,
 	setSelectedEmployee,
-} from "@/store";
+} from "../store";
 import { useEffect } from "react";
 
 export function Table() {
@@ -44,7 +45,7 @@ export function Table() {
 									dispatch(setModalOpen(true));
 								}}
 							>
-								<PencilSVG />
+								Editar <PencilSVG />
 							</button>
 							<button
 								className="btn btn__compact btn__delete"
@@ -52,7 +53,7 @@ export function Table() {
 									dispatch(deleteEmployee(_id));
 								}}
 							>
-								<TrashSVG />
+								Deletar <TrashSVG />
 							</button>
 						</td>
 					</tr>
