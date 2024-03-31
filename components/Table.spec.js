@@ -45,7 +45,7 @@ describe("Table component", () => {
 			</Provider>
 		);
 
-		fireEvent.click(getByText("Editar"));
+		fireEvent.click(getByText("Edit"));
 
 		expect(store.getActions()).toContainEqual({
 			type: "EMPLOYEE_FETCH_REQUESTED",
@@ -67,7 +67,7 @@ describe("Table component", () => {
 			</Provider>
 		);
 
-		fireEvent.click(getByText("Deletar"));
+		fireEvent.click(getByText("Delete"));
 
 		expect(store.getActions()).toContainEqual({
 			type: "EMPLOYEE_FETCH_REQUESTED",

@@ -45,7 +45,7 @@ export function Table() {
 									dispatch(setModalOpen(true));
 								}}
 							>
-								Editar <PencilSVG />
+								Edit <PencilSVG />
 							</button>
 							<button
 								className="btn btn__compact btn__delete"
@@ -53,7 +53,7 @@ export function Table() {
 									dispatch(deleteEmployee(_id));
 								}}
 							>
-								Deletar <TrashSVG />
+								Delete <TrashSVG />
 							</button>
 						</td>
 					</tr>
