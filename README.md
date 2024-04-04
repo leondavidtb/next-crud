@@ -34,14 +34,18 @@
 
 ## 2. Libraries & Frameworks
 
-| Name                                            | Description                                                            |
-| ----------------------------------------------- | ---------------------------------------------------------------------- |
-| [NextJS](https://nextjs.org/)                   | The React Framework for Production.                                    |
-| [ReactJS](https://reactjs.org/)                 | A JavaScript library for building user interfaces.                     |
-| [Redux](https://redux.js.org/)                  | A Predictable State Container for JS Apps.                             |
-| [Redux Saga](https://redux-saga.js.org/)        | A middleware used to handle side effects in Redux.                     |
-| [React Hook Form](https://react-hook-form.com/) | Performant, flexible and extensible forms with easy-to-use validation. |
-| [Mongoose](https://mongoosejs.com/)             | Elegant mongodb object modeling for node.js                            |
+| Name                                                         | Description                                                            |
+| ------------------------------------------------------------ | ---------------------------------------------------------------------- |
+| [NextJS](https://nextjs.org/)                                | The React Framework for Production.                                    |
+| [ReactJS](https://reactjs.org/)                              | A JavaScript library for building user interfaces.                     |
+| [Redux](https://redux.js.org/)                               | A Predictable State Container for JS Apps.                             |
+| [Redux Saga](https://redux-saga.js.org/)                     | A middleware used to handle side effects in Redux.                     |
+| [React Hook Form](https://react-hook-form.com/)              | Performant, flexible and extensible forms with easy-to-use validation. |
+| [Mongoose](https://mongoosejs.com/)                          | Elegant mongodb object modeling for node.js                            |
+| [Jest](https://jestjs.io/)                                   | Delightful JavaScript Testing Framework with a focus on simplicity.     |
+| [React Testing Library](https://testing-library.com/react)   | Simple and complete testing utilities that encourage good testing practices. |
+| [Cypress](https://www.cypress.io/)                           | Fast, easy and reliable testing for anything that runs in a browser.    |
+
 
 ## 3. Installation & Set Up
 
