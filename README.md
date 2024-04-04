@@ -13,7 +13,13 @@
 
 ```bash
 +---components
++---cypress
+|   \---downloads
+|   \---e2e
+|   \---fixtures
+|   \---support
 +---icons
++---images
 +---models
 +---pages
 |   \---api
