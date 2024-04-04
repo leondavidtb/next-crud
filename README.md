@@ -4,9 +4,10 @@
 
 - [Table of Content](#table-of-content)
   - [1. Folder Structures](#1-folder-structures)
-  - [2. Libraries & Frameworks](#2-libraries--frameworks)
-  - [3. Installation & Set Up](#3-installation--set-up)
-  - [4. License](#4-license)
+  - [2. Libraries \& Frameworks](#2-libraries--frameworks)
+  - [3. Installation \& Set Up](#3-installation--set-up)
+  - [4. Running Tests](#4-running-tests)
+  - [5. License](#5-license)
 
 ## 1. Folder Structures
 
@@ -68,6 +69,27 @@
   yarn start or npm start
 ```
 
-## 4. License
+## 4. Running Tests
+
+1. Running jest
+
+```bash
+  yarn test
+```
+
+2. Visualizing results
+   ![Jest tests](image.png)
+
+3. Running Cypress
+
+```bash
+  yarn cypress:open
+```
+
+4. visualizing results
+
+![Cypress tests](image-1.png)
+
+## 5. License
 
 MIT © [Roldan Montilla Jr](https://github.com/roldanjr)
