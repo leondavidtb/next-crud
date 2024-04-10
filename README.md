@@ -88,9 +88,10 @@
 ```
 
 2. Visualizing results
-   ![Jest tests](image.png)
+   
+   ![Jest tests](./images/image.png)
 
-3. Running Cypress
+4. Running Cypress
 
 ```bash
   yarn cypress:open
@@ -98,7 +99,7 @@
 
 4. visualizing results
 
-![Cypress tests](image-1.png)
+![Cypress tests](./images/image-1.png)
 
 ## 5. License
 
