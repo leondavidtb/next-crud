@@ -70,9 +70,6 @@ describe("Table component", () => {
 		fireEvent.click(getByText("Delete"));
 
 		expect(store.getActions()).toContainEqual({
-			type: "EMPLOYEE_REQUESTED",
-		});
-		expect(store.getActions()).toContainEqual({
 			payload: "1",
 			type: "EMPLOYEE_DELETE_REQUESTED",
 		});

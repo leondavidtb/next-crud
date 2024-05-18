@@ -36,7 +36,7 @@ describe("template spec", () => {
 	it("must validate delete an employee", () => {
 		cy.visit("http://localhost:3000");
 
-		cy.get(".btn__delete").click();
+		cy.get(".btn__delete").first().should("be.visible").click();
 
 		cy.contains(".table__body", "Bob").should("not.exist");
 	});
