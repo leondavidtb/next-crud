@@ -6,6 +6,8 @@
   - [1. Folder Structures](#1-folder-structures)
   - [2. Libraries \& Frameworks](#2-libraries--frameworks)
   - [3. Installation \& Set Up](#3-installation--set-up)
+    - [Node version](#node-version)
+    - [Set up project](#set-up-project)
   - [4. Running Tests](#4-running-tests)
   - [5. License](#5-license)
 
@@ -48,6 +50,24 @@
 
 
 ## 3. Installation & Set Up
+
+### Node version
+
+Make sure you have Node version 16.15.1 installed
+
+If using NVM:
+
+```bash
+  nvm install 16.15.1
+```
+
+Now use that version:
+
+```bash
+  nvm use 16.15.1
+```
+
+### Set up project
 
 1. Install project dependencies
 
